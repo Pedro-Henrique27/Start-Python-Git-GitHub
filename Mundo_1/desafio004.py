@@ -1,0 +1,10 @@
+print('-'*7,'DESAFIO_004',7*'-')
+n = str(input('Digite algo: '))
+
+print('- O tipo primitivo desse valor é {}'.format(type(n)))
+print('- Só tem espaços? {}'.format(n.isspace()))
+print('- É um número? {}'.format(n.isalnum()))
+print('- É alfabético? {}'.format(n.isalpha()))
+print('- Está em minúsculas? {}'.format(n.islower()))
+print('- Está em maiúsculas? {}'.format(n.isupper()))
+print('- Esá captalizada? {}'.format(n.istitle()))
